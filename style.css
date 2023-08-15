@@ -136,7 +136,7 @@ body{
 }
 .wide-card-images-container{
     overflow: hidden;
-    height: 400px;
+    height: 300px;
     object-fit: cover;
     margin-block-start: 20px;
     
