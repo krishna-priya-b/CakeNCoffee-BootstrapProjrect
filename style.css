@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ysabeau Office', sans-serif;
+}
+:root{
+    --main-colour: #472008;
+    --second-colour: #f6f6f6;
+    --third-colour:#7de599;
+    --special: #7ed660;
+    --third:#b0ff7f;
+}
+/* -----------------------------------------------------------Common------------------------------- */
+body{
+    background-color: var(--second-colour);
+    background-image: url(./images/body_background.png);
+    background-repeat: repeat;
+    background-blend-mode: lighten;
+
+}
+.no-unerline{
+    text-decoration: none;
+
+}
+/* -----------------------------------------------------------Nav Bar-------------------------------*/
+.nav-background{
+    background-color: var(--main-colour);
+}
+#nav-logo{
+    height: 30px;
+}
+.padding-nav{
+    padding-inline: 5px;
+}
+.nav-hover:hover{
+    font-weight: bold;
+    color: var(--second-colour);
+}
+
+
+/* ----------------------------------------------------------Secrion1-hero-------------------------------*/
+.hero-div{
+    margin-block-start: 10px;
+    width:100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.welocme-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hero-logo{
+    width: 150px;
+    margin-block-end: 30px;
+    transition: transform 0.3s ease-out;
+}
+.hero-logo:hover{
+    transform: scale(1.3);
+}
+.welcome-msg{
+    padding-inline: 30px;
+    padding-block: 40px;
+    text-align: center;
+    font-size: 30px;
+    color: #000;
+}
+.hero-purchaselink{
+    padding-block-start: 30px;
+    font-weight: lighter;
+}
+.welcome-cover-text{
+    font-size: 60px;
+    text-shadow: 5px 2px 2px rgba(0, 0, 0, 0.5);
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.welcome-cover-text:hover{
+    color: var(--main-colour);
+}
+.welcome-span{
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.welcome-span:hover{
+    color: var(--main-colour);
+}
+.ordernow2{
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 25px;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.ordernow2:hover{
+    background-color: var(--special);
+}
+
+.cover-buttons{
+    background-color: white;
+    padding-block: 10px;
+    padding-inline: 25px;
+    color: black;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+}
+.cover-buttons:hover{
+    background-color: var(--main-colour);
+    color: white;
+}
+#welcomemsg{
+    background-color: white;
+}
+/*-------------------------------------------------------------------Wide cards - dine in order online*/
+.wide-card-images{
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+.wide-card{
+    margin-inline: 20px;
+    height: 400px;
+    overflow: hidden;
+}
+.wide-card-images-container{
+    overflow: hidden;
+    height: 400px;
+    object-fit: cover;
+    margin-block-start: 20px;
+    
+}
+.wide-card-body-container{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wide-card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 400px;
+}
+.card {
+    border: none;
+  }
+/*--------------------------------------------------------------------------------sip-savor-repeat*/
+.sip-savor-repeat{
+    background-image: url(./images/coff);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+}
+.sip-savor-repeat-text{
+    color: white;
+    font-size: 250px;
+    text-align: center;
+}
+.sip-savor-repeat-cap{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: 5px 2px 2px rgba(83, 47, 24, 0.953);
+}
+/* -----------------------------------------------------------Cards------------------------------------ */
+.card-heading{
+    font-weight: bolder;
+    color: black;
+}
+.card-text{
+    line-height: 20px;
+    font-size: 16px;
+}
+.card-body{
+    height: 80px;
+}
+.card-footer{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.ordernow{
+    background-color: white;
+    padding-block: 7px;
+    padding-inline: 20px;
+    color: black;
+    border:solid 2px var(--main-colour);
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.ordernow:hover{
+    background-color: var(--main-colour);
+    color: white;
+    padding-block: 8px;
+    padding-inline: 21px;
+    font-size: 16px;
+}
+.card-div:hover{
+    box-shadow: 3px 2px 5px #2B1A15;
+
+}
+.card-img-container{
+    overflow: hidden;
+    height: 300px;
+}
+.img-zoom{
+    transition: transform 0.3s ease-out;
+  }
+.img-zoom:hover{
+    transform: scale(1.1);
+  }
+  .cake-flavor-link{
+    font-weight: bold;
+    color: var(--special);
+  }
+.card-top-div-container{
+    display: flex;
+    justify-content: center;
+}
+.card-top-div{
+    background-color: var(--main-colour);
+    border-radius: 30px;
+    margin: 30px;
+}
+.card-top-div-text{
+    margin-inline: 30px;
+    color: white;
+}
+/*----------------------------------------------------------------------------------location/ our shops*/
+.location{
+    height: 40px;
+}
+.location-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-div{
+    background-color: #fdd8ff;
+    padding-block: 20px;
+    margin-block: 20px;
+    border-radius: 10px;
+}
+.about-main-head{
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+.middle-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about-head{
+    font-weight: bolder;
+    padding-block-start: 20px;
+}
+.about-address{
+    margin-bottom: 0px;
+    overflow: hidden;
+    font-family: 'Ysabeau Office', sans-serif;
+    font-size: 20px;
+}
+.modal-div{
+    display: flex;
+    justify-content: center;
+}
+/*----------------------------------------------------------------------------------offcanvas aboutus*/
+#about-us{
+    display: flex;
+    justify-content: center;
+    margin-block-end: 20px;
+}
+.off-logo{
+    width: 150px;
+}
+.off-h5
+
+  /*-----------------------------------------------------------------------------------------video links*/
+  .vid{
+    margin-block: 20px;
+  }
+  /*------------------------------------------------------------------------------------------Testimonials*/
+  .testimonial-container{
+    margin-block-end: 10px;
+  }
+  .testimonial-card{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #9a9a9a;
+    height: 150px;
+    margin: 5px;
+  }
+  .testimonial-img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+  }
+  .testimonial-card-person{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .testimonial-heading{
+    text-align: center;
+  }
+  /*-----------------------------------------------------------------------------------------social media icons*/
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    z-index: 10;
+  }
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 20px;
+  }
+  .icon-bar a:hover {
+    background-color: #000;
+  }
+
+  .facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .insta {
+    background: #a23ae8;
+    color: white;
+  }
+
+  .youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .whatsapp {
+    background: #0AC308;
+    color: white;
+  }
+  .pinterest {
+    background: #bb0000;
+    color: white;
+  }
+
+
+/* -----------------------------------------------------------Footer-------------------------------*/
+.footer-container{
+    background-color: var(--main-colour);
+}
+.footer-logo-conteiner{
+    display: flex;
+    justify-content: center;
+}
+.footer-logo{
+    width: 120px;
+    margin-block: 10px;
+}
+.f-social{
+width: 39px
+}
+/* -----------------------------------------------------------Media quries-------------------------------*/
+@media(max-width:735px){                      /*small screen*/
+                         /*small screen*/
+     .hero-div{
+                 background-image: url(./images/drink2-1839134_1280.jpg);
+            }
+                    
+    .sip-savor-repeat-text{
+
+        font-size: 137px;
+
+    }
+    .sip-savor-repeat-cap{
+        
+        font-size: 40px;
+        margin-inline: 30px;
+
+    }
+
+}
+
+@media(min-width:735px){               /*big screen*/
+    .hero-div{
+        background-image: url(./images/drink-1839134_1280.jpg);
+    }
+}

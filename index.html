@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!----------------------------------------------- fonts -->
+    <!--Fond For whole website -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+    <!--Fond for welcome msg -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>The CakeHouse</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-xl fixed-top py-0 bg-gradient text-white nav-background">
+    <div class="container-fluid ">
+      <a class="navbar-brand" href="#"><img src="./images/whitelogo.png" id="nav-logo" alt="Logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item dropdown padding-nav">
+                <a class="nav-link dropdown-toggle text-white nav-hover" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" aria-current="page">
+                  Products
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#cards">Cakes</a></li>
+                  <li><a class="dropdown-item" href="#cards">Breads</a></li>
+                  <li><a class="dropdown-item" href="#cards">Spreads</a></li>
+                  <li><a class="dropdown-item" href="#cards">Breads</a></li>
+                  <li><a class="dropdown-item" href="#cards">Diabetic-Friendly Delights</a></li>
+                  <li><a class="dropdown-item" href="#cards">Vegan Delicacies</a></li>
+                  <li><a class="dropdown-item" href="#cards">Pet friendy treats</a></li>
+                </ul>
+            </li>
+          <li class="nav-item padding-nav">
+            <a class="nav-link text-white nav-hover" href="#cards">Order Online</a>
+           </li>
+          <li class="nav-item padding-nav">
+            <a class="nav-link text-white nav-hover" href="#">Blog</a>
+          </li>
+          <li class="nav-item padding-nav">
+            <a class="nav-link text-white nav-hover" href="#locate">Stores</a>
+          </li>
+          <li class="nav-item padding-nav nav-hover">
+            <a class="nav-link text-white nav-hover" href="#locate">Contact Us</a>
+          </li>               
+        </ul>
+        <div class="nav-item padding-nav nav-hover">
+          <a class="nav-link text-white" href="signin.html" target="_blank">Login/SignUp</a>
+        </div> 
+        <div>
+          <form class="d-flex padding-nav" role="search">
+              <button class="btn" type="submit"><i class="fa fa-search" style="font-size:15px;color:rgb(255, 255, 255)"></i></button>
+          </form>
+        </div> 
+        <a class="nav-link text-white padding-nav nav-hover" href="#"><i class="fa fa-shopping-cart" style="font-size:24px;color:rgb(255, 255, 255)"></i></a>
+      </div>
+      
+    </div>
+  </nav>
+  <main>
+    <!-- cover -->
+    <section id="hero">
+      <div class="hero-div">
+        <div id="carouselExampleSlidesOnly" class="carousel slide col-12 wide-card-images-container" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+             <p class="sip-savor-repeat-text">Sip.</p>
+            </div>
+            <div class="carousel-item">
+              <p class="sip-savor-repeat-text">Savor.</p>
+            </div>
+            <div class="carousel-item">
+              <p class="sip-savor-repeat-text">Repeat.</p>
+            </div>
+          </div>
+        </div>
+        <div class="welocme-div">
+          <p class="sip-savor-repeat-cap">Unveil the Irresistible Cake&Coffee Experience !</p>
+            <a href="#locate" class="cover-buttons">Visit Us</a>
+            <br>
+            <a href="#cards" class="cover-buttons">Order Now</a>            
+        </div>
+      </div>
+    </section>
+    <!-- Welcome msg -->
+    <section id="welcomemsg">
+      <div>
+        <h3 class="welcome-msg"><a href="#welcomemsg" class="no-unerline welcome-msg">Welcome to a place, where happiness is freshly baked daily! 
+          Indulge in mouthwatering treats, sip on delightful drinks, and celebrate the sweet moments with us.</a></h3>
+      </div>
+    </section>
+
+    <!-- cards -->
+    <section>
+
+      <div class="container " id="cards">
+        <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 ">
+
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="cakes.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">The Ultimate Cake Collection</a></h5>
+                <p class="card-text">Explore the World of Flavors!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="diabetic.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-1">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Diabetic-Friendly Delights</a></h5>
+                <p class="card-text">Satisfy Your Sweet Tooth, Healthfully!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="vegan.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-1">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Vegan Delicacies</a></h5>
+                <p class="card-text">Exploring the World of Irresistible Vegan Eats!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="breads.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Breads</a></h5>
+                <p class="card-text">Breaking Bread and Spreading Joy: A Slice of Life's Simple Pleasures!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="./images/spreads.png" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Spreads</a></h5>
+                <p class="card-text">Dipping into Delight: Savoring Irresistible Tastes!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="Pastries.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Pastries</a></h5>
+                <p class="card-text">Indulge in Pastry Perfection: A Symphony of Flavors and Flakiness!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="Doughnuts.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Doughnuts</a></h5>
+                <p class="card-text">Dive into Doughnut Bliss: A World of Glazed Goodness Awaits!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="seasonal.jpeg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Seasonal Treats</a></h5>
+                <p class="card-text">Tempting and Enchanting Seasonal Treats!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="mm-cookies.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">cookies</a></h5>
+                <p class="card-text">Prepare to be enchanted with each bite of these irresistible cookies!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="spring-macarons.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Macarons</a></h5>
+                <p class="card-text">A Symphony of Colors and Flavors!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="strawberry-cupcakes-1.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Cupcakes</a></h5>
+                <p class="card-text">A bite-sized adventure for your taste buds</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+          
+          <div>
+            <div class="card h-80 card-div mb-2">
+              <div class="card-img-container">
+                <img src="Dozer-dog-birthday-cake-4a.jpg" class="card-img-top img-zoom" alt="...">
+              </div>
+              <div class="card-body pt-0">
+                <h5 class="card-title"><a href="#cards" class="no-unerline card-heading">Pet friendy treats</a></h5>
+                <p class="card-text">A scrumptious treat for our furry friends to enjoy!</p>
+              </div>
+              <div class="card-footer">
+                <a href="#cards" class="ordernow bg-gradient no-unerline">Order now..</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- location our shops-->
+    <section id="locate" class="about-section">
+      <div class="container about-div">
+        <div class="row">
+          <div class="col location-container">
+            <div><img src="./images/EnchantingFinishedAplomadofalcon-max-1mb.gif" class="location"></div>
+            <h3 class="middle-content about-main-head">Drop By for a Bite.</h3>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 middle-content">
+            <h4 class="about-head">Kottayam</h4>
+            <p class="about-address mt-0">Logos Junction</p>
+            <p class="about-address">Shastri Road</p>
+            <div>
+              <a href="tel:+911234567890"><i class="fa fa-phone" style="font-size:15px;color:rgb(0, 0, 0)"></i></a>
+              <a href="tel:+911234567890" class="no-unerline">Contact Us</a>
+            </div>
+            <a href="https://goo.gl/maps/nV7VkQyY7DZUC2jz7" class="no-unerline" target="_blank">Locate us</a>
+            </div>
+          <div class="col-md-4 middle-content">
+            <h4 class="about-head">Pala</h4>
+            <p class="about-address">Puthettu Arcade</p>
+            <p class="about-address">Pala Main Road</p>
+            <div>
+              <a href="tel:+911234567890"><i class="fa fa-phone" style="font-size:15px;color:rgb(0, 0, 0)"></i></a>
+              <a href="tel:+911234567890" class="no-unerline">Contact Us</a>
+            </div>
+            <a href="https://goo.gl/maps/7oPuV5bSxVpj7CYH6" class="no-unerline" target="_blank">Locate us</a>
+          </div>
+          <div class="col-md-4 middle-content">
+            <h4 class="about-head">Kanjirappalli</h4>
+            <p class="about-address">Petta Junction</p>
+            <p class="about-address">KK Road</p>
+            <div>
+              <a href="tel:+911234567890"><i class="fa fa-phone" style="font-size:15px;color:rgb(0, 0, 0)"></i></a>
+              <a href="tel:+911234567890" class="no-unerline">Contact Us</a>
+            </div>
+            <a href="https://goo.gl/maps/bwKckWMjebiYc7hPA" class="no-unerline" target="_blank">Locate us</a>
+          </div>
+
+          <div class="col-12 middle-content">
+            <h4 class="about-head">Opening hours</h4>
+            <p>We are open everyday from 8am to 12pm</p>
+            <p style="text-align: center;"><i>Experience unforgettable dining at the &#39;Cake&Coffee&#39;, where delightful flavors and a comforting ambiance await.</i></p>
+            <p><a href="https://www.google.com/gmail/about/" target="_blank" class="no-unerline">thecakehouse@gmail.com</a></p>
+          </div>
+
+          <!-- off canvas -->
+
+          <div id="about-us">
+            <button class="btn bg-warning bg-gradient" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">About Us</button>
+            <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                
+                <img src="./images/blacklogo.png" class="off-logo" alt="">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <h5 class="off-h5">About Us</h5>
+                <p class="off-p5">Since 2010, we've been all about making amazing baked goods. Quality and creativity are our core, delighting coffee and dessert fans. We mix art with baking, serving up joy to everyone who walks in. With top-notch coffee and a range of treats, we're here to make life sweeter. </p>
+                <h5 class="off-h5">Exceptional Services</h5>
+                <ul>
+                  <li>Dine-In: Immerse yourself in the delightful ambiance of our bakery and coffee shop. Experience the joy of savoring our treats in a cozy and inviting environment.</li>
+                  <li>Online Ordering: Satisfy your cravings from the comfort of your home with our easy-to-use online ordering platform.</li>
+                  <li>Same Day Delivery: Need a last-minute cake or treat? We've got you covered with our same-day delivery service, ensuring your celebrations are never without sweetness.</li>
+                  <li>Catering Services: Make your events truly unforgettable with our catering services. From corporate gatherings to intimate parties, our delectable treats add a touch of elegance to every occasion.</li>
+                </ul>
+
+              </div>
+            </div>
+          </div>
+        <!---------------------- modal -->
+          <div class="modal-div">
+          <button type="button" class="btn btn-warning bg-gradient modal-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Request a call back</button>
+          
+          
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">New message</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label">Your phone number</label>
+                      <input type="text" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label">Leave a Message (optional)</label>
+                      <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+
+
+          <!-- carousal -->
+          <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade col-12 wide-card-images-container" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./images/shop1.jpg" class="d-block img-fluid wide-card-images" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/shop2.jpg" class="d-block img-fluid wide-card-images" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="./images/shop3.jpg" class="d-block img-fluid wide-card-images" alt="...">
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section>
+      <div>
+        <h3 class="testimonial-heading">Our Happy Customers</h3>
+      </div>
+      <div class="container testimonial-container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-card">
+              <div class="testimonial-card-person">
+                <img src="./images/p1.png" class="testimonial-img" alt="...">
+                <h5 class="card-title">The Cake Addict</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">"Their delightful treats and impeccable service have made me a loyal customer forever!"</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-card">
+              <div class="testimonial-card-person">
+                <img src="./images/p3.png" class="testimonial-img" alt="...">
+                <h5 class="card-title">Explorer</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  "Here, each bite tells a story of delicious moments crafted with care."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-card">
+              <div class="testimonial-card-person">
+                <img src="./images/p2.png" class="testimonial-img" alt="...">
+                <h5 class="card-title">Big Fooddee</h5>
+              </div>
+              <div class="card-body">
+                <p class="card-text">"Every bite from The Cake House is a taste of pure happiness. Their flavors never fails to impress."</p>
+              </div>
+            </div>
+          </div>
+
+        
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <!-- Stickey social media container left -->
+    <section> 
+      <div class="icon-bar">
+        <a href="https://www.facebook.com/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://twitter.com/"  target="_blank" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.instagram.com/"  target="_blank" class="insta"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.youtube.com/" target="_blank"  class="youtube"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.whatsapp.com/" target="_blank"  class="whatsapp"><i class="fa fa-whatsapp"></i></a>
+        <a href="https://www.pinterest.com/" target="_blank"  class="pinterest"><i class="fa fa-pinterest"></i></a>
+        <a href="https://www.google.com/gmail/about/" target="_blank"  class="pinterest"><i class="fa fa-envelope"></i></a>
+
+      </div>
+    </section>
+  </main>
+  
+  <footer class="bg-gradient">
+    <div class="footer-container bg-gradient text-center text-white">
+      <div class="footer-logo-conteiner">
+        <img src="./images/whitelogo.png" class="footer-logo" alt="Logo">
+      </div>
+        <div class="container p-4">
+          <div class="mb-4">
+            <a class="btn btn-outline-light btn-floating f-social" href="https://www.facebook.com/" role="button"><i class="fa fa-facebook"></i></a>
+            <a class="btn btn-outline-light btn-floating f-social" href="https://twitter.com/" role="button"><i class="fa fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-floating f-social" href="https://www.instagram.com/" role="button"><i class="fa fa-instagram"></i></a>
+            <a class="btn btn-outline-light btn-floating f-social" href="https://www.youtube.com/" role="button"><i class="fa fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-floating f-social" href="https://www.whatsapp.com/" role="button"><i class="fa fa-whatsapp"></i></a>
+            <a class="btn btn-outline-light btn-floating f-social" href="https://www.pinterest.com/" role="button"><i class="fa fa-pinterest"></i></a>
+            <a class="btn btn-outline-light btn-floating f-social" href="https://www.google.com/gmail/about/" role="button"><i class="fa fa-envelope"></i></a>
+          </div>
+          <div class="subscription">
+            <form>
+              <div class="row d-flex justify-content-center">
+                <div class="col-auto">
+                  <p class="pt-2">Sign up for our newsletter</p>
+                </div>
+                <div class="col-md-5 col-12">
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example21" class="form-control" placeholder="Enter your Email"/>
+                  </div>
+                </div>
+                <div class="col-auto">
+                  <button type="submit" class="btn btn-outline-light mb-4">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="footer-links">
+            <div class="row">
+              <div class="col-12">
+                <ul class="list-unstyled mb-0">
+                  <li>
+                    <a href="#locate" class="text-white no-unerline">Locate Us</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white  no-unerline">My Cart</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white  no-unerline">Terms and Conditions</a>
+                  </li>
+                  <li>
+                    <a href="#!" class="text-white  no-unerline">Privacy Policy</a>
+                  </li>
+                </ul>
+              </div>
+           </div>
+        </div>
+  <div class="text-center p-3"> © 2023</div>
+  </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
