@@ -107,7 +107,7 @@ body{
 
 .cover-buttons{
     background-color: white;
-    padding-block: 10px;
+    padding-block: 9px;
     padding-inline: 25px;
     color: black;
     border-radius: 30px;
@@ -136,9 +136,9 @@ body{
 }
 .wide-card-images-container{
     overflow: hidden;
-    height: 300px;
+    height: 350px;
     object-fit: cover;
-    margin-block-start: 20px;
+    margin-block-start: 10px;
     
 }
 .wide-card-body-container{
